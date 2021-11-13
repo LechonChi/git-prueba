@@ -1,0 +1,20 @@
+for i in range (2, 8):
+    print("El valor de i es actualmente", i)
+#función range() solo acepta enteros como argumentos
+#range(10)
+#El valor de la última variable de control es 9 (no 10, ya que comienza desde 0 , no desde 1
+#El tercer argumento es un incremento, but remember que nunca llega al limite que es el del medio
+pow = 1
+for exp in range(16):
+    print ("2 a la potencia de", exp, "es", pow)
+    pow *= 2 #recuerda poner este simbolo pegado al igual sino no funciona 
+
+#BREAK Y CONTINUE
+
+#BREAK::  Sale del ciclo inmediatamente, e incondicionalmente termina la operación del ciclo; 
+# el programa comienza a ejecutar la instrucción más cercana después del cuerpo del ciclo.
+
+#CONTINUE::  Se comporta como si el programa hubiera llegado repentinamente al final del cuerpo; 
+# el siguiente turno se inicia y la expresión de condición se prueba de inmediato.
+
+##me quede en el 3.1.2.7
