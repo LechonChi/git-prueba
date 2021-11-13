@@ -6,3 +6,5 @@ x=2
 print("Hello wooooorld")
 print(y+x)
 
+print("Prueba 2")
+
